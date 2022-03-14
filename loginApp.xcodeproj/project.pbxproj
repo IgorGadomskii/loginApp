@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		FAE6D25A27DE7F0C00F1E7EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6D25927DE7F0C00F1E7EC /* AppDelegate.swift */; };
 		FAE6D25C27DE7F0C00F1E7EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6D25B27DE7F0C00F1E7EC /* SceneDelegate.swift */; };
-		FAE6D25E27DE7F0C00F1E7EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6D25D27DE7F0C00F1E7EC /* ViewController.swift */; };
 		FAE6D26127DE7F0C00F1E7EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE6D25F27DE7F0C00F1E7EC /* Main.storyboard */; };
 		FAE6D26327DE7F0E00F1E7EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE6D26227DE7F0E00F1E7EC /* Assets.xcassets */; };
 		FAE6D26627DE7F0E00F1E7EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE6D26427DE7F0E00F1E7EC /* LaunchScreen.storyboard */; };
+		FAE6D26E27DE8C2000F1E7EC /* GreetingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6D26D27DE8C2000F1E7EC /* GreetingsViewController.swift */; };
+		FAE6D27027DE8C6100F1E7EC /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6D26F27DE8C6100F1E7EC /* LogInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FAE6D25627DE7F0C00F1E7EC /* loginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE6D25927DE7F0C00F1E7EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAE6D25B27DE7F0C00F1E7EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAE6D25D27DE7F0C00F1E7EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAE6D26027DE7F0C00F1E7EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAE6D26227DE7F0E00F1E7EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAE6D26527DE7F0E00F1E7EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAE6D26727DE7F0E00F1E7EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE6D26D27DE8C2000F1E7EC /* GreetingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsViewController.swift; sourceTree = "<group>"; };
+		FAE6D26F27DE8C6100F1E7EC /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				FAE6D25927DE7F0C00F1E7EC /* AppDelegate.swift */,
 				FAE6D25B27DE7F0C00F1E7EC /* SceneDelegate.swift */,
-				FAE6D25D27DE7F0C00F1E7EC /* ViewController.swift */,
+				FAE6D26D27DE8C2000F1E7EC /* GreetingsViewController.swift */,
+				FAE6D26F27DE8C6100F1E7EC /* LogInViewController.swift */,
 				FAE6D25F27DE7F0C00F1E7EC /* Main.storyboard */,
 				FAE6D26227DE7F0E00F1E7EC /* Assets.xcassets */,
 				FAE6D26427DE7F0E00F1E7EC /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAE6D25E27DE7F0C00F1E7EC /* ViewController.swift in Sources */,
 				FAE6D25A27DE7F0C00F1E7EC /* AppDelegate.swift in Sources */,
 				FAE6D25C27DE7F0C00F1E7EC /* SceneDelegate.swift in Sources */,
+				FAE6D27027DE8C6100F1E7EC /* LogInViewController.swift in Sources */,
+				FAE6D26E27DE8C2000F1E7EC /* GreetingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
