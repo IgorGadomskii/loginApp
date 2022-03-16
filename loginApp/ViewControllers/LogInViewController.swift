@@ -38,12 +38,16 @@ class LogInViewController: UIViewController, UITextFieldDelegate {
         
         for viewController in viewControllers {
             if let greetingsVC = viewController as? GreetingsViewController {
-                let greetings = "Welcome, " + person.name + "!"
+                let greetings = "Welcome, \(person.name)!"
                 greetingsVC.nameText = greetings
             } else if let navigationVC = viewController as? UINavigationController {
                 let aboutUserVC = navigationVC.topViewController as! AboutMeViewController
                 let userInfo = person.returnMyInfo()
+                let sorryLabel = person.showSorryMessage()
+                let userImage = person.showMyImage()
                 aboutUserVC.info = userInfo
+                aboutUserVC.sorry = sorryLabel
+                aboutUserVC.extraImage = userImage
                 
             }
         }
