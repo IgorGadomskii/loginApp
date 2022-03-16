@@ -13,9 +13,9 @@ class GreetingsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
        greetingsLabel.text = nameText
-        
-      
     }
+    
+    
     
 
     

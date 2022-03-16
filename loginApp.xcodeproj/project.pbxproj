@@ -14,6 +14,8 @@
 		FAE6D26627DE7F0E00F1E7EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE6D26427DE7F0E00F1E7EC /* LaunchScreen.storyboard */; };
 		FAE6D26E27DE8C2000F1E7EC /* GreetingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6D26D27DE8C2000F1E7EC /* GreetingsViewController.swift */; };
 		FAE6D27027DE8C6100F1E7EC /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6D26F27DE8C6100F1E7EC /* LogInViewController.swift */; };
+		FAE6D27227E1364800F1E7EC /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6D27127E1364800F1E7EC /* AboutMeViewController.swift */; };
+		FAE6D27927E13B1800F1E7EC /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6D27827E13B1800F1E7EC /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		FAE6D26727DE7F0E00F1E7EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAE6D26D27DE8C2000F1E7EC /* GreetingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsViewController.swift; sourceTree = "<group>"; };
 		FAE6D26F27DE8C6100F1E7EC /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		FAE6D27127E1364800F1E7EC /* AboutMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
+		FAE6D27827E13B1800F1E7EC /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +62,58 @@
 		FAE6D25827DE7F0C00F1E7EC /* loginApp */ = {
 			isa = PBXGroup;
 			children = (
-				FAE6D25927DE7F0C00F1E7EC /* AppDelegate.swift */,
-				FAE6D25B27DE7F0C00F1E7EC /* SceneDelegate.swift */,
-				FAE6D26D27DE8C2000F1E7EC /* GreetingsViewController.swift */,
-				FAE6D26F27DE8C6100F1E7EC /* LogInViewController.swift */,
-				FAE6D25F27DE7F0C00F1E7EC /* Main.storyboard */,
-				FAE6D26227DE7F0E00F1E7EC /* Assets.xcassets */,
-				FAE6D26427DE7F0E00F1E7EC /* LaunchScreen.storyboard */,
+				FAE6D27427E1373B00F1E7EC /* ViewControllers */,
+				FAE6D27727E1397900F1E7EC /* Models */,
+				FAE6D27627E1377800F1E7EC /* Storyboard */,
+				FAE6D27527E1376E00F1E7EC /* Resorses */,
+				FAE6D27327E136FD00F1E7EC /* App */,
 				FAE6D26727DE7F0E00F1E7EC /* Info.plist */,
 			);
 			path = loginApp;
+			sourceTree = "<group>";
+		};
+		FAE6D27327E136FD00F1E7EC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FAE6D25927DE7F0C00F1E7EC /* AppDelegate.swift */,
+				FAE6D25B27DE7F0C00F1E7EC /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FAE6D27427E1373B00F1E7EC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAE6D27127E1364800F1E7EC /* AboutMeViewController.swift */,
+				FAE6D26D27DE8C2000F1E7EC /* GreetingsViewController.swift */,
+				FAE6D26F27DE8C6100F1E7EC /* LogInViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FAE6D27527E1376E00F1E7EC /* Resorses */ = {
+			isa = PBXGroup;
+			children = (
+				FAE6D26227DE7F0E00F1E7EC /* Assets.xcassets */,
+			);
+			path = Resorses;
+			sourceTree = "<group>";
+		};
+		FAE6D27627E1377800F1E7EC /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				FAE6D25F27DE7F0C00F1E7EC /* Main.storyboard */,
+				FAE6D26427DE7F0E00F1E7EC /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		FAE6D27727E1397900F1E7EC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAE6D27827E13B1800F1E7EC /* Person.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +187,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE6D27927E13B1800F1E7EC /* Person.swift in Sources */,
 				FAE6D25A27DE7F0C00F1E7EC /* AppDelegate.swift in Sources */,
+				FAE6D27227E1364800F1E7EC /* AboutMeViewController.swift in Sources */,
 				FAE6D25C27DE7F0C00F1E7EC /* SceneDelegate.swift in Sources */,
 				FAE6D27027DE8C6100F1E7EC /* LogInViewController.swift in Sources */,
 				FAE6D26E27DE8C2000F1E7EC /* GreetingsViewController.swift in Sources */,
